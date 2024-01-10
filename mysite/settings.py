@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ugc',
+    
 ]
 
 MIDDLEWARE = [
@@ -129,7 +130,7 @@ TOKEN = '6387712008:AAFMHf11rHY0Hv3Zl3wqrbYJJqvxzq-1i_w'
 
 
 
-PROXY_URL = 'https://telegg.ru/orig/bot'
+#PROXY_URL = 'https://telegg.ru/orig/bot'
 
 
 

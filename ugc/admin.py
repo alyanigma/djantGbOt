@@ -2,17 +2,7 @@ from django.contrib import admin
 from .models import Profile
 from .models import Message
 from .forms import ProfileForm
-from django.contrib import admin
-from django.contrib.admin import helpers
-from django.contrib.admin.utils import model_ngettext
-from django.contrib import messages
-from django.urls import reverse
-from django.utils.html import format_html
-
-from django.contrib import admin
-
 from .models import Message
-from telegram import Bot
 from mysite.settings import TOKEN
 import telebot
 
